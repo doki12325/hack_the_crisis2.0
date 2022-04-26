@@ -4,6 +4,7 @@ nav {
   height: 7.5vh;
   font-size: 1.8rem;
   display: flex;
+  align-items: center;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -16,13 +17,26 @@ nav {
     }
   }
 }
+
+.nav-content{
+  width: 100%;
+}
+.headerlogo_container{
+  justify-self: end;
+}
+// .nav_bar > li:last-child{
+//   // float: right;
+//   direction:rtl;
+// }
 .header--logo {
   width: 95px;
 }
-.header_logo{
-  // padding: 55vw;
-
-}
+// .header_logo{
+//   padding-left: 55vw;
+//   // float: right;
+//   // direction:rtl;
+//   // justify-content: flex-end;
+// }
 .s-open,
 .s-close {
   display: none;

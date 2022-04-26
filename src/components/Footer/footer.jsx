@@ -94,7 +94,7 @@ export default function Footer() {
           <p>
             Contact us{" "}
             <a href={SOCIALS.email}>
-              <em>{SOCIALS.mail}</em>
+              {SOCIALS.mail}
             </a>{" "}
           </p>
 
