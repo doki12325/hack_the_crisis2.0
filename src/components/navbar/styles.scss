@@ -31,12 +31,11 @@ nav {
 .header--logo {
   width: 95px;
 }
-// .header_logo{
-//   padding-left: 55vw;
-//   // float: right;
-//   // direction:rtl;
-//   // justify-content: flex-end;
-// }
+.header_logo {
+  padding: 55vw;
+  display: grid;
+  place-items: center;
+}
 .s-open,
 .s-close {
   display: none;
@@ -54,7 +53,7 @@ ul {
   height: 100%;
 }
 
-.list--general{
+.list--general {
   padding: 20px;
 }
 
@@ -83,9 +82,8 @@ a:link {
     opacity: 0.2;
     pointer-events: none;
   }
-  .header_logo{
+  .header_logo {
     padding: 0vw;
-  
   }
   ul {
     flex-direction: column;
