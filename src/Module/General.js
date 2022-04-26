@@ -211,7 +211,7 @@ const TeamInfo = [
     {
       Name: "Vaibhav",
       role: "Event Manager",
-      github: "",
+      github: "https://github.com/Vaibhavgupta05",
       linkedin: "https://www.linkedin.com/in/vaibhav0511/",
       img: vaibhav
     },
@@ -296,7 +296,7 @@ const TeamInfo = [
     },
     {
       Name: "Shradha",
-      role: "Event Coordinator",
+      role: "Outreach Head",
       github: "",
       linkedin: "https://www.linkedin.com/in/shradha-bansal-809aa61a8/",
       img: shradha
