@@ -69,9 +69,14 @@ const NAVBAR = () => {
   return (
     <Router>
       <nav className="nav_bar" style={{backgroundColor: color}}>
-        <Wrapper toggle={toggle}>
+        <Wrapper toggle={toggle} className="nav-wrapper">
           <div className="nav-content" ref={navigation}>
             <ul>
+            <li className="headerlogo_container">
+                <div  className="header_logo">
+                  <img alt="img" className="header--logo" src={hacklogo1} />
+                </div>
+              </li>
               <li className="list--general">
                 <Link to={`#home`}>
                   <span className="links">Home </span>{" "}
@@ -103,11 +108,6 @@ const NAVBAR = () => {
                 onClick={() => setToggle(true)}
                 src={logoClose}
               />
-              <li>
-                <div className="header_logo">
-                  <img alt="img" className="header--logo" src={hacklogo1} />
-                </div>
-              </li>
             </ul>
           </div>
           <div className="ease" />
