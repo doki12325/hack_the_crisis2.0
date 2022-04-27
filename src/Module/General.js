@@ -305,7 +305,7 @@ const TeamInfo = [
       Name: "Ankita",
       role: "Content Head",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
       img: ankita
     },
     {
@@ -363,7 +363,7 @@ const frequentlyAskedQuestions = [
       {
         label: "Who can attend?",
         content:
-          "Hack the Crisis 2.0 is open to all undergraduate, high school students and middle school students from all schools."
+          "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas."
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -388,12 +388,12 @@ const frequentlyAskedQuestions = [
           "Reach us directly at hackthecrisis2021@gmail.com we would happy to help you."
       },
       {
-        label: "Can i volunteer?",
-        content: "No."
+        label: "How teams will be judged?",
+        content: "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round."
       },
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing swag!."
+        content: "Yes! Participants will be recieveing swag!."
       }
     ]
   ]
