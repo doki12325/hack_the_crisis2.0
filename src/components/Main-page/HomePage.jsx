@@ -125,10 +125,10 @@ export default function HomePage(props) {
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        <Row className="prizesection non-coding">
+        {/* <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
           <h2>coming soon</h2>
-        </Row>
+        </Row> */}
 
         {/* ********Sponsors here ***** */}
 

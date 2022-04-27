@@ -31,7 +31,6 @@ class Panel extends React.Component {
     };
 
     return (
-      // eslint-disable-next-line jsx-a11y/role-supports-aria-props
       <div className="panel" role="tabpanel" aria-expanded={isActive}>
         <button className="panel__label" role="tab" onClick={activateTab}>
           {label}
@@ -53,7 +52,7 @@ class Accordion extends React.Component {
     super(props);
 
     this.state = {
-      activeTab: 1
+      activeTab: 100
     };
 
     this.activateTab = this.activateTab.bind(this);
