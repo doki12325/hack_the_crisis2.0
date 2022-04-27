@@ -85,6 +85,7 @@ export default function Footer() {
           <Btn
             class="join_disco"
             type="Register Now"
+            overlay="Comming Soon"
           />
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
