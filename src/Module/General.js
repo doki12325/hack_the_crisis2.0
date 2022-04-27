@@ -61,7 +61,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://instagram.com/hack_the_crisis_?igshid=YmMyMTA2M2Y=",
-  discord: "",
+  discord: "https://discord.gg/vykTKVCXM6",
   linkedin: "https://www.linkedin.com/in/hack-the-crisis-65b80b211",
   twitter: " https://twitter.com/HackTheCrisis1?t=EUvOgiyUAeuc_1l8NEKqAg&s=08",
   devpost: "",
@@ -211,7 +211,7 @@ const TeamInfo = [
     {
       Name: "Vaibhav",
       role: "Event Manager",
-      github: "",
+      github: "https://github.com/Vaibhavgupta05",
       linkedin: "https://www.linkedin.com/in/vaibhav0511/",
       img: vaibhav
     },
@@ -296,7 +296,7 @@ const TeamInfo = [
     },
     {
       Name: "Shradha",
-      role: "Event Coordinator",
+      role: "Outreach Head",
       github: "",
       linkedin: "https://www.linkedin.com/in/shradha-bansal-809aa61a8/",
       img: shradha
