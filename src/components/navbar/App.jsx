@@ -76,7 +76,7 @@ const NAVBAR = () => {
                 <div  className="header_logo">
                   <img alt="img" className="header--logo" src={hacklogo1} />
                 </div>
-              </li>
+            </li>
               <li className="list--general">
                 <Link to={`#home`}>
                   <span className="links">Home </span>{" "}

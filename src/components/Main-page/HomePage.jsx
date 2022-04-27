@@ -121,7 +121,9 @@ export default function HomePage(props) {
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="What's in it for you ?" />
+          <div className="prize--cards">
           {Prizeinfo.map(PrizeGroup)}
+          </div>
         </Row>
         {/* ********Prizes ending here ***** */}
 

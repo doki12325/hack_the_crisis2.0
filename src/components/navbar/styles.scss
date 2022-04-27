@@ -18,7 +18,7 @@ nav {
   }
 }
 
-.nav-content{
+.nav-content {
   width: 100%;
 }
 
@@ -45,10 +45,12 @@ ul {
   height: 100%;
 }
 
-.list--general{
+.list--general {
   padding: 20px;
 }
-
+.headerlogo_container{
+  margin-right: 5rem;
+}
 nav ul li {
   display: inline-block;
   // margin: 2rem 0 5rem 6rem;
@@ -74,9 +76,8 @@ a:link {
     opacity: 0.2;
     pointer-events: none;
   }
-  .header_logo{
+  .header_logo {
     padding: 0vw;
-  
   }
   ul {
     flex-direction: column;
