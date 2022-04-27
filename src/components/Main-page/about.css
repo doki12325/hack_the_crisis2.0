@@ -53,10 +53,10 @@ top: 10px;
 }
 .prizesection {
   text-align: center;
-  margin: 0 auto;
-  padding: 0 4vh 0 4vh;
-  margin: 17vh 14vh 0 14vh;
-  border-radius: 14px;
+  /* margin: 0 auto; */
+/* padding: 0 4vh 0 4vh; */
+  padding: 8vh 14vh 4vh 14vh;
+  /* border-radius: 14px; */
   margin-top: 4vh;
   background-color: #f3effe;
 }

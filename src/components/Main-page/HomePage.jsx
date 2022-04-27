@@ -120,15 +120,15 @@ export default function HomePage(props) {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="What's in it for you ?" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        <Row className="prizesection non-coding">
+        {/* <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
           <h2>coming soon</h2>
-        </Row>
+        </Row> */}
 
         {/* ********Sponsors here ***** */}
 
