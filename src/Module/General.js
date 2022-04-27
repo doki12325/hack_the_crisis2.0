@@ -3,7 +3,7 @@
 // import Replit from "./Assets/sponsorsLogos/replit.png";
 // import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
 // import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
+// import cfc from "./Assets/sponsorsLogos/cfc.png";
 // import pass from "./Assets/sponsorsLogos/1pass.png";
 // import glimpse from "./Assets/sponsorsLogos/glimpse.png";
 // import qoom from "./Assets/sponsorsLogos/qoom.svg";
@@ -38,7 +38,6 @@ import nishant from "./Assets/teami/nishant.jpeg";
 import anjali from "./Assets/teami/Anjali.jpeg";
 import dev from "./Assets/teami/Dev.jpeg";
 
-
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src alsoy
@@ -53,10 +52,8 @@ const TOP_SECTION = {
     "Join us on 21st May - 22nd May 2022 with over 500 students from across the nation for 36 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
-  JUDGES_FORM_LINK:
-    "./",
-  HACKERS_REGISTRATION_FORM_LINK:
-    "./"
+  JUDGES_FORM_LINK: "./",
+  HACKERS_REGISTRATION_FORM_LINK: "./"
 };
 
 const SOCIALS = {
@@ -203,7 +200,7 @@ const TeamInfo = [
       role: "Event Manager",
       github: "https://github.com/Bhavuk-09",
       linkedin: "https://www.linkedin.com/in/bhavuk-khanna-79b302186/",
-      img: Bhavuk 
+      img: Bhavuk
     }
   ],
   [
@@ -338,8 +335,6 @@ const TeamInfo = [
   ]
 ];
 
-
-
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
  * create as many arrays you want all logos will be rendered
@@ -347,13 +342,11 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  
-  [{src: cfc}]
+  // [{src: cfc}]
   // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
   // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
-  
 ];
 
 /** Instructions

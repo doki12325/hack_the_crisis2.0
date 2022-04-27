@@ -120,7 +120,7 @@ export default function HomePage(props) {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="What's in it for you ?" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
