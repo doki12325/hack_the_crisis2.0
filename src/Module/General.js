@@ -262,7 +262,7 @@ const TeamInfo = [
     },
     {
       Name: "Divya",
-      role: "Teach Head",
+      role: "Tech Head",
       github: "https://github.com/divya520357",
       linkedin: "https://www.linkedin.com/in/divya098/",
       img: divya
