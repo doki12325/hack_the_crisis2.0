@@ -153,7 +153,7 @@ const Prizeinfo = [
     //Array 3
     {
       icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
+      type: "Best Web App",
       content: "Must use qoom in your project to win this category"
     },
     {
