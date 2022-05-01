@@ -110,13 +110,13 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: "overall First",
+      type: "Overall First",
       content:
         "First Overall prize will be given to a project that outstands all other submissions"
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: "overall Second",
+      type: "Overall Second",
       content:
         "Second Overall prize will be given to the second best project of the hackathon"
     },
@@ -191,7 +191,7 @@ const TeamInfo = [
     {
       Name: "Aavaig Malhotra",
       role: "Event Organiser",
-      github: "",
+      github: "https://github.com/aavaig-malhotra",
       linkedin: "https://www.linkedin.com/in/aavaig-malhotra/",
       img: aavaig
     },
@@ -215,7 +215,7 @@ const TeamInfo = [
     {
       Name: "Sohil",
       role: "Event Manager",
-      github: "",
+      github: "https://github.com/SohilK03",
       linkedin: "https://www.linkedin.com/in/sohil-khattar-444663113/",
       img: Sohil
     },
@@ -262,7 +262,7 @@ const TeamInfo = [
     },
     {
       Name: "Divya",
-      role: "Teach Head",
+      role: "Tech Head",
       github: "https://github.com/divya520357",
       linkedin: "https://www.linkedin.com/in/divya098/",
       img: divya
@@ -305,7 +305,7 @@ const TeamInfo = [
       Name: "Ankita",
       role: "Content Head",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ankita-singh-894b561b8/",
       img: ankita
     },
     {
@@ -363,7 +363,7 @@ const frequentlyAskedQuestions = [
       {
         label: "Who can attend?",
         content:
-          "Hack the Crisis 2.0 is open to all undergraduate, high school students and middle school students from all schools."
+          "Anyone is welcome to participate in this event. While experience coding and programming is a huge plus, teams will also need people with strong presentation skills and brilliant ideas."
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -388,12 +388,12 @@ const frequentlyAskedQuestions = [
           "Reach us directly at hackthecrisis2021@gmail.com we would happy to help you."
       },
       {
-        label: "Can i volunteer?",
-        content: "No."
+        label: "How teams will be judged?",
+        content: "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round."
       },
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing swag!."
+        content: "Yes! Participants will be recieveing swag!."
       }
     ]
   ]
