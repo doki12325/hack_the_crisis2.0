@@ -24,6 +24,12 @@ import {
   frequentlyAskedQuestions
 } from "../../Module/General";
 
+import devfolio from "../../Module/Assets/devfolio/Devfolio_Logo-White.svg";
+import celo from "../../Module/Assets/devfolio/Celo Logo Color.svg";
+import filecoin from "../../Module/Assets/devfolio/Filecoin White.svg";
+import polygon from "../../Module/Assets/devfolio/Polygon_Logo-White.svg";
+import tezos from "../../Module/Assets/devfolio/Tezos_Logo-White.svg";
+
 // javascript Map for sponsors
 
 function SponsorGroup(props) {
@@ -92,7 +98,13 @@ export default function HomePage(props) {
             <Col className="d-image" sm={12} lg={5} md={4}>
               <img alt="img" src={TOP_SECTION.IMG_SRC} />
               <br />
-              
+              <Row className="devfolio-img">
+                <img alt="img" src={devfolio} />
+                <img alt="img" src={celo} />
+                <img alt="img" src={filecoin} />
+                <img alt="img" src={tezos} />
+                <img alt="img" src={polygon} />
+              </Row>
             </Col>
           </Row>
 
