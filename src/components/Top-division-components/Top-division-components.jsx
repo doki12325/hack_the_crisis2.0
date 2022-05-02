@@ -5,14 +5,30 @@ import MytypedComponent from "../typing-effect/typing.js";
 import {TOP_SECTION} from "../../Module/General";
 
 function Btn(props) {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
-    <button className={props.class}>
-      <i className={props.ico}></i>
-      {props.type}
-      {/* <div className="overlay">
-        <div className="overlay-text">{props.overlay}</div>
-      </div> */}
-    </button>
+    <div
+      class="apply-button"
+      data-hackathon-slug="YOUR-HACKATHON-SLUG"
+      data-button-theme="light"
+      style={{height: "44px", width: "312px"}}
+    ></div>
+    // <button className={props.class}>
+    //   <i className={props.ico}></i>
+    //   {props.type}
+    //   {/* <div className="overlay">
+    //     <div className="overlay-text">{props.overlay}</div>
+    //   </div> */}
+    // </button>
   );
 }
 

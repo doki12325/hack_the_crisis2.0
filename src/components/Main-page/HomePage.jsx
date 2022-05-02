@@ -21,7 +21,7 @@ import {
   TeamInfo,
   // JudgesInfo,
   sponsorLogos,
-  frequentlyAskedQuestions,
+  frequentlyAskedQuestions
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -91,6 +91,8 @@ export default function HomePage(props) {
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
               <img alt="img" src={TOP_SECTION.IMG_SRC} />
+              <br />
+              
             </Col>
           </Row>
 
@@ -145,7 +147,7 @@ export default function HomePage(props) {
         {/* <h1 id="team">Mentor</h1>
 
         {JudgesInfo.map(TeamMembers)} */}
-        
+
         <h1 id="team">Our Team</h1>
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
@@ -156,8 +158,6 @@ export default function HomePage(props) {
         )} */}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
-
-        
 
         {/* ********Team ending here ***** */}
       </Container>
