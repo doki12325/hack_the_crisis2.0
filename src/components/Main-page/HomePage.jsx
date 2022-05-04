@@ -98,7 +98,6 @@ export default function HomePage(props) {
             <Col className="d-image" sm={12} lg={5} md={4}>
               <img alt="img" src={TOP_SECTION.IMG_SRC} />
               <br />
-             
             </Col>
           </Row>
 
@@ -144,12 +143,27 @@ export default function HomePage(props) {
           <SponsorsHead />
           {/* <SponsorUS /> */}
           <Row className="devfolio-img">
-                <img alt="img" src={devfolio} />
-                <img alt="img" src={celo} />
-                <img alt="img" src={filecoin} />
-                <img alt="img" src={tezos} />
-                <img alt="img" src={polygon} />
-              </Row>
+            <a rel="noreferrer" target="_blank" href="https://devfolio.co">
+              {" "}
+              <img alt="img" src={devfolio} />
+            </a>
+            <a rel="noreferrer" target="_blank" href="https://celo.org ">
+              <img alt="img" src={celo} />
+            </a>{" "}
+            <a rel="noreferrer" target="_blank" href="https://filecoin.io">
+              <img alt="img" src={filecoin} />
+            </a>
+            <a rel="noreferrer" target="_blank" href="https://tezos.com">
+              <img alt="img" src={tezos} />
+            </a>{" "}
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://polygon.technology/"
+            >
+              <img alt="img" src={polygon} />
+            </a>{" "}
+          </Row>
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}

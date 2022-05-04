@@ -74,7 +74,7 @@ align-items: center;
 
 .devfolio-img img {
   width: 17%;
- margin-right: 3%;
+ margin-right: 2%;
 }
 
 @media (max-width: 570px) {
