@@ -7,9 +7,9 @@ function SponsorsHead() {
   return (
     <div>
       <h1 className="shead">Sponsors & Partners</h1>
-      <h2>Coming Soon</h2>
+      {/* <h2>Meet Our Supporters</h2> */}
     </div>
-    );
+  );
 }
 
 function Sponsor(props) {
