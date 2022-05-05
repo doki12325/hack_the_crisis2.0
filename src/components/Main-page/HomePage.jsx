@@ -147,6 +147,13 @@ export default function HomePage(props) {
               {" "}
               <img alt="img" src={devfolio} />
             </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://polygon.technology/"
+            >
+              <img alt="img" src={polygon} />
+            </a>{" "}
             <a rel="noreferrer" target="_blank" href="https://celo.org ">
               <img alt="img" src={celo} />
             </a>{" "}
@@ -155,13 +162,6 @@ export default function HomePage(props) {
             </a>
             <a rel="noreferrer" target="_blank" href="https://tezos.com">
               <img alt="img" src={tezos} />
-            </a>{" "}
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://polygon.technology/"
-            >
-              <img alt="img" src={polygon} />
             </a>{" "}
           </Row>
           {sponsorLogos.map(SponsorGroup)}
