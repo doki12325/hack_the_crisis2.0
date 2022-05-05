@@ -18,7 +18,7 @@ function Btn(props) {
   return (
     <div
       class="apply-button"
-      data-hackathon-slug="https://hack-the-crisis.devfolio.co/"
+      data-hackathon-slug="hack-the-crisis"
       data-button-theme="light"
       style={{height: "44px", width: "312px"}}
     ></div>

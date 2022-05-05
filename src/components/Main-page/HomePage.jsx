@@ -87,6 +87,16 @@ function FrequentlyAsked(props) {
 }
 
 export default function HomePage(props) {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
       <div className="color_sectiom" id="home">
