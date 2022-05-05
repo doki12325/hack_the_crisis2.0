@@ -18,10 +18,10 @@ function Btn(props) {
   return (
     <div
       class="apply-button"
-      data-hackathon-slug="hack-the-crisis"
+      data-hackathon-slug="hack-the-crises"
       data-button-theme="light"
       style={{height: "44px", width: "312px"}}
-    ></div>
+    ></div> 
     // <button className={props.class}>
     //   <i className={props.ico}></i>
     //   {props.type}

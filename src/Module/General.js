@@ -16,6 +16,20 @@
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
  */
+// sponsors
+
+import devfolio from "../Module/Assets/devfolio/Devfolio_Logo-White.svg";
+import celo from "../Module/Assets/devfolio/Celo Logo Color.svg";
+import filecoin from "../Module/Assets/devfolio/Filecoin White.svg";
+import polygon from "../Module/Assets/devfolio/Polygon_Logo-White.svg";
+import tezos from "../Module/Assets/devfolio/Tezos_Logo-White.svg";
+
+import mentorbox from "../Module/Assets/sponsorsLogos/mentorbox.jpg";
+import newton from "../Module/Assets/sponsorsLogos/newton.jpg";
+import grabon from "../Module/Assets/sponsorsLogos/grabon.png";
+import noticeboard from "../Module/Assets/sponsorsLogos/noticeboard.png";
+import letsgrowmore from "../Module/Assets/sponsorsLogos/letsgrowmore.png";
+import pharmeasy from "../Module/Assets/sponsorsLogos/pharmeasy.jpg";
 
 // Importing all Team members images  from Assets
 import piyush from "./Assets/teami/Piyush.jpeg";
@@ -342,11 +356,26 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  // [{src: cfc}]
-  // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+
+  [
+    {src: devfolio, link: "https://devfolio.co"},
+    {src: polygon, link: "https://polygon.technology/"},
+    {src: tezos, link: "https://tezos.com"}
+  ], //Array 1
+  [
+    {src: filecoin, link: "https://filecoin.io"},
+    {src: celo, link: "https://celo.org"},
+    {src: mentorbox, link: ""}
+  ],
+  [
+    {src: noticeboard, link: ""},
+    {src: grabon, link: ""},
+    {src: pharmeasy, link: ""}
+  ], //Array 2 //Array 3
+  [
+    {src: letsgrowmore, link: ""},
+    {src: newton, link: ""}
+  ] //Array 4
 ];
 
 /** Instructions
@@ -389,7 +418,8 @@ const frequentlyAskedQuestions = [
       },
       {
         label: "How teams will be judged?",
-        content: "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round."
+        content:
+          "There will be a preliminary round of judging in which teams will present their solution. Only teams that are successful in this preliminary round will present to the larger group in the final round."
       },
       {
         label: "Will there be swag?",

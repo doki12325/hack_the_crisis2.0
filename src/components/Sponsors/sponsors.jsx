@@ -15,7 +15,7 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor">
-      <img src={props.srcx} alt="Hack The Crisis 2.0"></img>
+     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt="Hack The Crisis 2.0"></img></a>
     </div>
   );
 }

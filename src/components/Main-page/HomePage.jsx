@@ -24,21 +24,22 @@ import {
   frequentlyAskedQuestions
 } from "../../Module/General";
 
-import devfolio from "../../Module/Assets/devfolio/Devfolio_Logo-White.svg";
-import celo from "../../Module/Assets/devfolio/Celo Logo Color.svg";
-import filecoin from "../../Module/Assets/devfolio/Filecoin White.svg";
-import polygon from "../../Module/Assets/devfolio/Polygon_Logo-White.svg";
-import tezos from "../../Module/Assets/devfolio/Tezos_Logo-White.svg";
-
 // javascript Map for sponsors
 
 function SponsorGroup(props) {
   return (
-    <Row>
+    <Row justifyContent="center" alignItems="center">
       {props.map((s, key) => (
-        <Col key={key} className="" sm={12} lg={4} md={6}>
+        <Col
+          key={key}
+          justifyContent="center"
+          alignItems="center"
+          sm={12}
+          lg={4}
+          md={6}
+        >
           {" "}
-          <Sponsor srcx={s.src} />{" "}
+          <Sponsor link={s.link} srcx={s.src} />{" "}
         </Col>
       ))}
     </Row>
@@ -152,28 +153,6 @@ export default function HomePage(props) {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           {/* <SponsorUS /> */}
-          <Row className="devfolio-img">
-            <a rel="noreferrer" target="_blank" href="https://devfolio.co">
-              {" "}
-              <img alt="img" src={devfolio} />
-            </a>
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://polygon.technology/"
-            >
-              <img alt="img" src={polygon} />
-            </a>{" "}
-            <a rel="noreferrer" target="_blank" href="https://celo.org ">
-              <img alt="img" src={celo} />
-            </a>{" "}
-            <a rel="noreferrer" target="_blank" href="https://filecoin.io">
-              <img alt="img" src={filecoin} />
-            </a>
-            <a rel="noreferrer" target="_blank" href="https://tezos.com">
-              <img alt="img" src={tezos} />
-            </a>{" "}
-          </Row>
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
