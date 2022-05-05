@@ -18,7 +18,7 @@ function Btn(props) {
   return (
     <div
       class="apply-button"
-      data-hackathon-slug="YOUR-HACKATHON-SLUG"
+      data-hackathon-slug="https://hack-the-crisis.devfolio.co/"
       data-button-theme="light"
       style={{height: "44px", width: "312px"}}
     ></div>
@@ -48,8 +48,8 @@ function Myinfo() {
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
       <div className="join_dis">
         {/* <a rel="noreferrer" target="_blank" href={"#"}> */}
-        <a rel="noreferrer" href={"./"}>         
-         <Btn
+        <a rel="noreferrer" href={"./"}>
+          <Btn
             // ico="fab fa-2x fa-discord"
             class="join_disco"
             type="Register Now"
