@@ -28,6 +28,16 @@ const Wrapper = styled.div`
 `;
 
 const NAVBAR = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const [toggle, setToggle] = useState(true);
   const [color, setColor] = useState("#121930");
 
@@ -72,8 +82,8 @@ const NAVBAR = () => {
         <Wrapper toggle={toggle} className="nav-wrapper">
           <div className="nav-content" ref={navigation}>
             <ul>
-            <li className="headerlogo_container">
-                <div  className="header_logo">
+              <li className="headerlogo_container">
+                <div className="header_logo">
                   <img alt="img" className="header--logo" src={hacklogo1} />
                 </div>
               </li>
