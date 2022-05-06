@@ -7,15 +7,15 @@ function SponsorsHead() {
   return (
     <div>
       <h1 className="shead">Sponsors & Partners</h1>
-      <h2>Coming Soon</h2>
+      {/* <h2>Meet Our Supporters</h2> */}
     </div>
-    );
+  );
 }
 
 function Sponsor(props) {
   return (
     <div className="Sponsor">
-      <img src={props.srcx} alt="Hack The Crisis 2.0"></img>
+     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt="Hack The Crisis 2.0"></img></a>
     </div>
   );
 }

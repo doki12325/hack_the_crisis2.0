@@ -35,12 +35,12 @@ align-items: center;
   width: 100%;
   position: relative;
   transition: 0.3s;
-  top:0px;
+  top: 0px;
   transition: top 0.2s linear;
 }
 .d-image img:hover {
-opacity: 0.9;
-top: 10px;
+  opacity: 0.9;
+  top: 10px;
 }
 .logoSection {
   text-align: center;
@@ -54,7 +54,7 @@ top: 10px;
 .prizesection {
   text-align: center;
   /* margin: 0 auto; */
-/* padding: 0 4vh 0 4vh; */
+  /* padding: 0 4vh 0 4vh; */
   padding: 8vh 14vh 4vh 14vh;
   /* border-radius: 14px; */
   margin-top: 4vh;
@@ -72,7 +72,10 @@ top: 10px;
   margin-top: -16vh;
 }
 
-
+.devfolio-img img {
+  width: 17%;
+ margin-right: 2%;
+}
 
 @media (max-width: 570px) {
   .mediaInfo {
